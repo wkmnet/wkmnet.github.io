@@ -1,21 +1,32 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-
-<head>
-    <title>管理后台1.3.1</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <link rel="stylesheet" href="http://vue.libs.cf/dist/main.3c02bb387038d3cd86be.css">
-    <link rel="stylesheet" name="theme" href="">
-    <link rel="icon" href="./icon.ico" type="image/x-icon" />
-</head>
-
-<body>
-    <div id="app"></div>
-    <div class="lock-screen-back" id="lock_screen_back"></div>
-    <script type="text/javascript" src="http://vue.libs.cf/dist/vender-base.3c02bb387038d3cd86be.js"></script>
-    <script type="text/javascript" src="http://vue.libs.cf/dist/vender-exten.3c02bb387038d3cd86be.js"></script>
-    <script type="text/javascript" src="http://vue.libs.cf/dist/main.3c02bb387038d3cd86be.js"></script>
-</body>
-
-</html>
+Html Webpack Plugin:
+<pre>
+  Error: HtmlWebpackPlugin: could not load file /mnt/coding/webstorm_workspaces/vue-ui/dist/icon.ico
+  
+  - index.js:312 
+    [vue-ui]/[html-webpack-plugin]/index.js:312:27
+  
+  - util.js:16 tryCatcher
+    [vue-ui]/[bluebird]/js/release/util.js:16:23
+  
+  - promise.js:512 Promise._settlePromiseFromHandler
+    [vue-ui]/[bluebird]/js/release/promise.js:512:31
+  
+  - promise.js:569 Promise._settlePromise
+    [vue-ui]/[bluebird]/js/release/promise.js:569:18
+  
+  - promise.js:614 Promise._settlePromise0
+    [vue-ui]/[bluebird]/js/release/promise.js:614:10
+  
+  - promise.js:689 Promise._settlePromises
+    [vue-ui]/[bluebird]/js/release/promise.js:689:18
+  
+  - async.js:133 Async._drainQueue
+    [vue-ui]/[bluebird]/js/release/async.js:133:16
+  
+  - async.js:143 Async._drainQueues
+    [vue-ui]/[bluebird]/js/release/async.js:143:10
+  
+  - async.js:17 Immediate.Async.drainQueues
+    [vue-ui]/[bluebird]/js/release/async.js:17:14
+  
+</pre>
