@@ -9,7 +9,11 @@
   <link rel="icon" href="/dist/icon.ico" type="image/x-icon" />
 </head>
 <body>
-	<!--<audio src="/audio/syrbxcq.mp3" autoplay loop></audio>-->
+ <div>
+ <audio controls>
+	 <source src="/audio/syrbxcq.mp3" type="audio/mpeg">
+</audio>
+ </div>
 <div class="layui-carousel" id="ID-carousel-demo-image">
   <div carousel-item>
     <div><img src="/images/01.jpg"></div>
@@ -32,8 +36,8 @@ layui.use(function(){
   // 渲染 - 图片轮播
   carousel.render({
     elem: '#ID-carousel-demo-image',
-    width: '1024px',
-    height: '720px',
+    width: '2048px',
+    height: '1024px',
     interval: 2000
   });
 });
